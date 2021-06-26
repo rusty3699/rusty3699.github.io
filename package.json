@@ -1,0 +1,26 @@
+{
+  "name": "rusty3699.github.io",
+  "version": "1.0.0",
+  "description": "A personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusty3699/rusty3699.github.io.git"
+  },
+  "author": "anish tipnis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusty3699/rusty3699.github.io/issues"
+  },
+  "homepage": "https://github.com/rusty3699/rusty3699.github.io#readme",
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
