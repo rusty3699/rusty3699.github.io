@@ -7,7 +7,7 @@ var concat = require('gulp-concat');
 //source html
 var html_src='./index.html'
 //dest html
-var html_dist='dist'
+var html_dist='./dist/'
 //css source
 //var css_src='./assets/css'
 var css_dist='dist/css'
@@ -23,7 +23,7 @@ return gulp.src(html_src)
 .pipe(gulp.dest(html_dist));
 });
 
-//concat the css filess 
+//concat the css filess
 gulp.task('styles', function() {
   gulp.src("./assets/css/**.css")
     .pipe(concat('main.css'))
