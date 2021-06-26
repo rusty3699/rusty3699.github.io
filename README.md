@@ -1,9 +1,9 @@
 # rusty3699.github.io
-Personal Portfolio 
+Personal Portfolio
 
-Commads 
+Commads
 
-GULP
+
 
 1. To minify HTML and JS
 gulp minify-html
