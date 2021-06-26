@@ -13,3 +13,6 @@ Commads
 
 3. Serve Dist Locally
 (serve dist)
+
+Note :- main.css is pasted into assets/css/main.css
+Piped Line file is in dist\assets\css
