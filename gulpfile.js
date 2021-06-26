@@ -10,22 +10,22 @@ var html_src='./index.html'
 var html_dist='./dist/'
 //css source
 //var css_src='./assets/css'
-var css_dist='dist/css'
+var css_dist='dist/assets/css'
 
 
 //minify html and js
 gulp.task('minify-html', function() {
-return gulp.src(html_src)
+return gulp.src("./index.html")
     .pipe(htmlmin({collapseWhitespace:true}))
     .pipe(htmlmin({removeComments:true}))
     .pipe(htmlmin({minifyJS: true}))
 
-.pipe(gulp.dest(html_dist));
+.pipe(gulp.dest("./dist/"));
 });
 
 //concat the css filess
 gulp.task('styles', function() {
-  gulp.src("./assets/css/**.css")
+ return gulp.src("./assets/css/**.css")
     .pipe(concat('main.css'))
     .pipe(gulp.dest(css_dist));
 });
