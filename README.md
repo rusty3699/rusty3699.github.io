@@ -6,10 +6,10 @@ Commads
 
 
 1. To minify HTML and JS
-gulp minify-html
+(gulp minify-html)
 
 2. To Concat CSS files
-gulp styles
+(gulp styles)
 
 3. Serve Dist Locally
-serve dist
+(serve dist)
