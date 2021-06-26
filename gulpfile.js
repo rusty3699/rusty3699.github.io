@@ -23,9 +23,10 @@ return gulp.src("./index.html")
 .pipe(gulp.dest("./dist/"));
 });
 
-//concat the css filess
+//concat the css filess and minify
 gulp.task('styles', function() {
  return gulp.src("./assets/css/**.css")
     .pipe(concat('main.css'))
+    .pipe(htmlmin({minifyCSS: true}))
     .pipe(gulp.dest(css_dist));
 });
